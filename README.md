@@ -14,16 +14,20 @@ Data Resources
 •	moss-003-sft-data : https://huggingface.co/datasets/YeungNLP/moss-003-sft-data
 •	firefly-train-1.1M : https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M
 •	conversation data: We have compiled a portion of conversation datasets, including approximately 60,000 entries. The download link will be provided shortly.
-judgment prediction: https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip 
-Information Extraction: https://huggingface.co/datasets/cail2018,https://github.com/china-ai-law-challenge/CAIL2022
-Event Detection: https://github.com/thunlp/LEVEN,https://github.com/china-ai-law-challenge/CAIL2022
-Judicial exam: https://jecqa.thunlp.org/
-Text verification:  The dataset can be downloaded from "./data"
-Summary Generation: We have compiled a portion of summary datasets, including approximately 60,000 entries. The download link will be provided shortly
+•	judgment prediction: https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip 
+•	Information Extraction: https://huggingface.co/datasets/cail2018,https://github.com/china-ai-law-challenge/CAIL2022
+•	Event Detection: https://github.com/thunlp/LEVEN,https://github.com/china-ai-law-challenge/CAIL2022
+•	Judicial exam: https://jecqa.thunlp.org/
+•	Text Checking: The dataset can be downloaded from "./data"
+•	Summary Generation: We have compiled a portion of summary datasets, including approximately 60,000 entries. The download link will be provided shortly
 
 How To Start With "TaiLing"
 Before you begin, ensure that you have configured the environment and installed the relevant code packages. 
 pip install -r requirements.txt
+
+How To Inference
+If you wish to use "TaiLing" for inference, you can run “python chat.py”. 
+
 
 
 
