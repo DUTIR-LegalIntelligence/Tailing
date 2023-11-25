@@ -1,4 +1,4 @@
-# Tailing
+# TaiLing
 
 As a large language model dedicated to judicial institutions and law enforcement personnel, "TaiLing" aims to facilitate more accurate evidence analysis and case understanding in the field of justice, providing professional and precise intelligent assistance for judicial proceedings. It offers a diverse range of judicial services, including text verification, information extraction, sentencing assistance, judicial exam support, and human-computer dialogue. This showcases the extensive applications of large language models in the judicial domain and their immense potential in enhancing work efficiency and accuracy.
 
@@ -48,7 +48,7 @@ The TaiLing pedestal model adopts Alibaba Cloud's Qwen-7B series, which boasts 7
 
 •	Judicial exam: https://jecqa.thunlp.org/
 
-•	Text Checking: The dataset can be downloaded from "./data"
+•	Text Checking: The dataset can be downloaded from ["./data"](https://github.com/DUTIR-LegalIntelligence/Tailing/tree/main/data)
 
 •	Summarization Generation: We have compiled a portion of summary datasets, including approximately 60,000 entries. The download link will be provided shortly
 
