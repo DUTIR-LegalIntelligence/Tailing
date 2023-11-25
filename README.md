@@ -38,7 +38,7 @@ The TaiLing pedestal model adopts Alibaba Cloud's Qwen-7B series, which boasts 7
 
 •	firefly-train-1.1M : https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M
 
-•	Legal Dialog: We have compiled a portion of conversation datasets, including approximately 60,000 entries. The download link will be provided shortly.
+•	Legal Dialog: We have compiled a portion of conversation datasets, including approximately 600,000 samples. The download link will be provided shortly.
 
 •	Judicial Judgment Prediction: https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip 
 
@@ -50,7 +50,7 @@ The TaiLing pedestal model adopts Alibaba Cloud's Qwen-7B series, which boasts 7
 
 •	Text Checking: The dataset can be downloaded from ["./data"](https://github.com/DUTIR-LegalIntelligence/Tailing/tree/main/data)
 
-•	Summarization Generation: We have compiled a portion of summary datasets, including approximately 60,000 entries. The download link will be provided shortly
+•	Summarization Generation: We have compiled a portion of summary datasets. The download link will be provided shortly
 
 ## How To Start With "TaiLing"
 
