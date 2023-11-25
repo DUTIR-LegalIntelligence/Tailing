@@ -31,7 +31,6 @@ The TaiLing pedestal model adopts Alibaba Cloud's Qwen-7B series, which boasts 7
 | Summary Generation                    |            6k            |           35K            |
 | Dialog                                |          100k            |          548K            |
 | Other Tasks                           |            -             |           23K            |
-|---------------------------------------|--------------------------|--------------------------|
 | Total                                 |          366K            |          667K            |
 
 
