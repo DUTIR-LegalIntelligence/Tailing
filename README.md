@@ -6,7 +6,7 @@ As a large language model dedicated to judicial institutions and law enforcement
  <img alt="YOUR-ALT-TEXT" src="https://github.com/DUTIR-LegalIntelligence/Tailing/blob/main/framework.png">
 </picture>
 
-Core Capabilities of “TaiLing”
+## Core Capabilities of “TaiLing”
 
 1.	Text Verification: The text verification task is dedicated to automatically detecting and correcting grammar, spelling, and factual errors in judicial documents. Its key focus is on improving document quality, reducing human errors, and thereby ensuring the reliability of legal documents. For legal professionals, this means saving a significant amount of time in proofreading and corrections, ensuring adherence to professional standards for documents.
 
@@ -14,11 +14,26 @@ Core Capabilities of “TaiLing”
    
 3.	Sentencing Assistance: The sentencing assistance task aims to provide judicial professionals with sentencing recommendations based on data and historical cases to enhance the objectivity and consistency of judgments. This task focuses on analyzing sentencing standards for similar cases, considering case-specific factors such as the nature of the offense and the defendant's background. By constructing predictive models, it generates reasonable sentencing references.
 
-Base Model
+## Base Model
 
 The TaiLing pedestal model adopts Alibaba Cloud's Qwen-7B series, which boasts 70 billion parameters. After pre-training on a massive dataset of over 2 trillion tokens, it demonstrates excellent performance in text comprehension and generation, pattern recognition, decision support, and other aspects. During the model training process, we utilized 8 Nvidia A40 48 GB graphics cards and integrated QLoRA technology to customize and fine-tune the pedestal model specifically for the judicial domain. Our training code is optimized based on the Firefly project to ensure higher efficiency and stability in the model's performance.
 
-Data Resources
+## Data Resources
+
+| Type of Task                          | Judical Domain Data Size | General Domain Data Size |
+|--------------------------------------:|--------------------------|--------------------------|
+| Judical Jugment Prediction| Javascript|          200k            |            -             |
+| Named Entity Recognition              |           12k            |            -             |
+| Relationship Extraction               |            7k            |            -             |
+| Event Detection                       |           20k            |           13K            |
+| Judicial Exam                         |           14k            |            -             |
+| Text Checking                         |            8k            |           48K            |
+| Summary Generation                    |            6k            |           35K            |
+| Dialog                                |          100k            |          548K            |
+| Other Tasks                           |            -             |           23K            |
+|---------------------------------------|--------------------------|--------------------------|
+| Total                                 |          366K            |          667K            |
+
 
 •	moss-003-sft-data : https://huggingface.co/datasets/YeungNLP/moss-003-sft-data
 
@@ -38,13 +53,13 @@ Data Resources
 
 •	Summarization Generation: We have compiled a portion of summary datasets, including approximately 60,000 entries. The download link will be provided shortly
 
-How To Start With "TaiLing"
+## How To Start With "TaiLing"
 
 Before you begin, ensure that you have configured the environment and installed the relevant code packages. 
 
 pip install -r requirements.txt
 
-How To Inference
+## How To Inference
 
 If you wish to use "TaiLing" for inference, you can run “python chat.py”. 
 model weigths: https://huggingface.co/DUTIR-LegalIntelligence/tailing
