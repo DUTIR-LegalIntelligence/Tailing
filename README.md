@@ -3,7 +3,7 @@
 As a large language model dedicated to judicial institutions and law enforcement personnel, "TaiLing" aims to facilitate more accurate evidence analysis and case understanding in the field of justice, providing professional and precise intelligent assistance for judicial proceedings. It offers a diverse range of judicial services, including text verification, information extraction, sentencing assistance, judicial exam support, and human-computer dialogue. This showcases the extensive applications of large language models in the judicial domain and their immense potential in enhancing work efficiency and accuracy.
 
 <picture>
- <img alt="YOUR-ALT-TEXT" src="[YOUR-DEFAULT-IMAGE](https://github.com/DUTIR-LegalIntelligence/Tailing/blob/main/framework.png)">
+ <img alt="YOUR-ALT-TEXT" src="https://github.com/DUTIR-LegalIntelligence/Tailing/blob/main/framework.png">
 </picture>
 
 
