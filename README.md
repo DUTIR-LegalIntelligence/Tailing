@@ -2,6 +2,11 @@
 
 As a large language model dedicated to judicial institutions and law enforcement personnel, "TaiLing" aims to facilitate more accurate evidence analysis and case understanding in the field of justice, providing professional and precise intelligent assistance for judicial proceedings. It offers a diverse range of judicial services, including text verification, information extraction, sentencing assistance, judicial exam support, and human-computer dialogue. This showcases the extensive applications of large language models in the judicial domain and their immense potential in enhancing work efficiency and accuracy.
 
+<picture>
+ <source media="(prefers-color-scheme: light)" srcset="https://github.com/DUTIR-LegalIntelligence/Tailing/blob/main/framework.png">
+</picture>
+
+
 Core Capabilities of “TaiLing”
 1.	Text Verification: The text verification task is dedicated to automatically detecting and correcting grammar, spelling, and factual errors in judicial documents. Its key focus is on improving document quality, reducing human errors, and thereby ensuring the reliability of legal documents. For legal professionals, this means saving a significant amount of time in proofreading and corrections, ensuring adherence to professional standards for documents. 
 2.	Information Extraction: The information extraction task focuses on accurately extracting key information from complex judicial documents, such as individuals, locations, events, and their interrelationships. It rapidly identifies and categorizes crucial data points to support case analysis and the formulation of legal decisions. This efficient information extraction capability enables legal professionals to quickly grasp the overall context of a case, facilitating more accurate evidence analysis and case understanding.
