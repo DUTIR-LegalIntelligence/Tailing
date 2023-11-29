@@ -56,7 +56,9 @@ The TaiLing pedestal model adopts Alibaba Cloud's Qwen-7B series, which boasts 7
 
 Before you begin, ensure that you have configured the environment and installed the relevant code packages. 
 
+```
 pip install -r requirements.txt
+```
 
 ## How To Inference
 
